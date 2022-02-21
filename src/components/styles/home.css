@@ -1,0 +1,19 @@
+.BookPage{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.BookTitle{
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+}
+
+.BookThumbnails{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

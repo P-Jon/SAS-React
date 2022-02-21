@@ -1,0 +1,12 @@
+.menu-link{
+    
+}
+
+.Navmenu{
+    margin: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: #494E6B;
+    color: #B8A7AF;
+    justify-content: left;
+}

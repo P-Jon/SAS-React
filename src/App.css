@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  background-color: rgb(219, 219, 219);
+
 }
 
 .App-logo {
@@ -35,4 +41,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a, a:visited{
+  margin: auto 0px;
+  color: #B8A7AF;
+  cursor: pointer;
+}
+
+a:hover{
+  color: #dac9d1;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  margin: 0;
 }

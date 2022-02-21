@@ -1,0 +1,52 @@
+.FormBody{
+    min-height: 100vh;
+    width: 100%;
+    font-size: calc(10px + 1vmin);
+    color: #000;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.FormContainer{
+    width: 80%;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: whitesmoke;
+    box-shadow: 0 0 8px 0.15vw #999999;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.DescriptionSection{
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Header{
+    text-align: center;
+    min-width: 100%;
+}
+
+.Checkbox{
+    cursor: pointer;
+}
+table, td {
+    border: 1px solid;
+    padding: 4px;
+}
+
+td {
+    padding: 8px 4px 8px 4px;
+    
+}
+th {
+    padding-bottom: 5px;
+}
