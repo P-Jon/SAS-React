@@ -10,3 +10,11 @@
     color: #B8A7AF;
     justify-content: left;
 }
+
+.MenuIcon{
+    display: flex;
+    width: 20vh;
+    height: 20vh;
+    margin: 2vh 0 -5vh 22%;
+
+}
