@@ -1,11 +1,17 @@
-import React, { Component } from "react";
+import React from "react";
 import { BrowserRouter as Link, NavLink } from "react-router-dom";
 import { ReactComponent as LogoSvg } from '../Logo_1.svg';
 import './styles/menu.css';
 
-export default function NavMenu() {
+export default function NavMenu(props) {
+    var navClass = "Navmenu";
+
+    if (props.isModal === "1") {
+        navClass = "Navmenu ModalMode";
+    }
+
     return (
-        <div className="Navmenu">
+        <div className={navClass}>
             <div className="MenuIcon">
                 <LogoSvg />
             </div>

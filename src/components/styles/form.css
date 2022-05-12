@@ -1,4 +1,4 @@
-.FormBody{
+.FormBody {
     min-height: 100vh;
     width: 100%;
     font-size: calc(10px + 1vmin);
@@ -10,7 +10,7 @@
 
 }
 
-.FormContainer{
+.FormContainer {
     width: 80%;
     min-height: 100vh;
     justify-content: center;
@@ -20,33 +20,40 @@
     flex-wrap: wrap;
 }
 
-.DescriptionSection{
+.DescriptionSection {
     text-align: left;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
     margin-bottom: 5%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.Header{
+.TextSection {
+    width: 90%;
+    height: 100%;
+}
+
+.Header {
     text-align: center;
     min-width: 100%;
 }
 
-.Checkbox{
+.Checkbox {
     cursor: pointer;
 }
-table, td {
+
+table,
+td {
     border: 1px solid;
     padding: 4px;
 }
 
 td {
     padding: 8px 4px 8px 4px;
-    
+
 }
+
 th {
     padding-bottom: 5px;
 }

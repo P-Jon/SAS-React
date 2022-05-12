@@ -1,19 +1,24 @@
 html {
   background-color: rgb(219, 219, 219);
 }
+
 .App {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-
+  position: relative;
   justify-content: center;
-  
-
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.LancasterLogo {
+  width: 40%;
+  height: auto;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -41,18 +46,20 @@ html {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
-a, a:visited{
+a,
+a:visited {
   margin: auto 0px;
   color: #B8A7AF;
   cursor: pointer;
 }
 
-a:hover{
+a:hover {
   color: #dac9d1;
 }
 
