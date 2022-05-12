@@ -88,6 +88,11 @@ export default class Book extends React.Component {
 
     }
 
+    playAudio() {
+        var audio = document.getElementById(`${this.props.name}_${this.props.version}_page${this.state.currentPage}_audio`);
+        audio.play();
+    }
+
     render() {
         var pageURL = this.getPageURL();
         console.log(pageURL);
@@ -101,7 +106,7 @@ export default class Book extends React.Component {
                         </div>
                     </div>
 
-                    <div className="BookSlide">
+                    <div className="BookSlide" onClick={() => this.playAudio()}>
                         {this.getPageAudio()}
 
                         <img className="PageImage" src={this.images('./' + pageURL)} alt="Storybook page" />
