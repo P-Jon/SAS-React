@@ -34,6 +34,8 @@ export default function App() {
         <Route path="/book/frogbook1" element={<Book name={"Frogbook"} version={"1"} length={"8"} />}> </Route>
         <Route path="/book/frogbook2" element={<Book name={"Frogbook"} version={"2"} length={"8"} />}> </Route>
         <Route path="/book/frogbook3" element={<Book name={"Frogbook"} version={"3"} length={"8"} />}> </Route>
+        <Route path="/book/frogbook4" element={<Book name={"Frogbook"} version={"4"} length={"8"} />}> </Route>
+
 
         <Route path="/book/springloaded1" element={<Book name={"Springloaded"} version={"1"} length={"8"} />}> </Route>
       </Routes >

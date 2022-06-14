@@ -28,6 +28,12 @@ export default function Home() {
             linkUrl: "frogbook3",
         },
         {
+            name: "Frogbook 4",
+            desc: "fourth option",
+            imgUrl: "Frogbook_4",
+            linkUrl: "frogbook4",
+        },
+        {
             name: "Springloaded 1",
             desc: "three option",
             imgUrl: "Springloaded_1",

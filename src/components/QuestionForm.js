@@ -25,7 +25,7 @@ export default class QuestionForm extends React.Component {
     }
 
     ConsentForm() {
-        const bookNumber = Math.floor((Math.random() * 3) + 1);
+        const bookNumber = Math.floor((Math.random() * 4) + 1);
         console.log(bookNumber);
         return (
             <div className="DescriptionSection">
